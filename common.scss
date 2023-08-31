@@ -22,7 +22,7 @@ body{
     width: 100%;
 }
 
-.citrus_vetdiet{
+.citrus_tidyCat{
     max-width: 1440px;
     margin: 0 auto;
     a{
@@ -60,9 +60,10 @@ body{
             font-size: 16px;
             text-transform: uppercase;
             border: 1px solid #001952;
-            min-width: 209px;
+            min-width: 211px;
             margin: 0 15px;
             height: 54px;
+            font-weight: 700;
         }
     }
     .cta-underline{
@@ -106,7 +107,7 @@ body{
     }
 }
 
-.citrus_vetdiet  a:hover{
+.citrus_tidyCat  a:hover{
     .cta-box{
         a:hover{
             background: #fff;
@@ -123,20 +124,20 @@ body{
     }
 }
 
-.citrus_vetdiet {
+.citrus_tidyCat {
     .custom-container{
         max-width: 1440px;
         margin: 0 auto;
     }
 }
 
-.citrus_vetdiet {
+.citrus_tidyCat {
     .container-full{
         width: 100%;
     }
 }
 
-.citrus_vetdiet {
+.citrus_tidyCat {
     .flex-box{
         display: flex;
         align-items: center;
@@ -146,17 +147,17 @@ body{
     
 }
 
-.citrus_vetdiet__section-title{
+.citrus_tidyCat__section-title{
     padding: 25px 15px;
 }
 
-.citrus_vetdiet {
+.citrus_tidyCat {
     .section-padding30{
         padding: 30px 0;
     }
 }
 
-.citrus_vetdiet__section-title{
+.citrus_tidyCat__section-title{
     h2{
         text-align: center;
         font-size: 25px;

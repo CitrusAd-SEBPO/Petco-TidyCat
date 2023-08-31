@@ -1,3 +1,6 @@
+@import "common";
+@import "variables";
+
 /* POV sections */
 .citrus_tidyCat_carousel{
     overflow-x: hidden;
@@ -11,7 +14,6 @@
         overflow: hidden;
         justify-content: space-between;
         align-items: flex-start !important;
-        // min-height: 315px;
         .citrus_tidyCat_carousel-item{
             display: flex;
             align-items: center;
@@ -20,39 +22,38 @@
             background-repeat: no-repeat;
             background-position: center;
             width: 100%;
-            .citrus_tidyCat_carousel-item__col{
-                &:nth-child(1){
-                    width: 30%;
-                }
-                &:nth-child(2){
-                    width: 40%;
-                }
-                &:nth-child(3){
-                    width: 30%;
-                }
+            .citrus_tidyCat_carousel-item__col:nth-child(2){
+                padding: 25px 5%;
             }
             .citrus_tidyCat__pov--text{
                 width: 100%;
                 text-align: center;
-                h1{
-                    font-size: 34px;
-                    color: #fff;
-                    padding: 15px 0;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    line-height: 36px;
-                    max-width: 620px;
+                h2{
+                    font-size: 35px;
+                    color: #000000;
+                    line-height: 34px;
+                    max-width: 336px;
                     margin: 0 auto;
+                    span{
+                        color: $red;
+                    }
                 }
                 p{
                     font-size: 16px;
-                    color: #fff;
-                    padding-bottom: 20px;
+                    color: #000000;
+                    padding: 20px 0;
                 }
             }
             .custom-container{
-                justify-content: space-between;
+                justify-content: flex-start;
+                min-height: 230px;
+                margin: 0 0 0 5%;
+                width: 100%;
+            }
+        }
+        .pov1{
+            .citrus_tidyCat__pov--logo{
+                width: 161px;
             }
         }
         .pov2{
@@ -66,11 +67,11 @@
                     padding-bottom: 20px;
                 } 
             }
-            .citrus_tidyCat__pov--cta{
-                a{
-                    background: #001952 !important;
-                    color: #fff !important;
-                }
+
+        }
+        .pov3{
+            .citrus_tidyCat_carousel-item__col:nth-child(2){
+                padding: 25px 2%;
             }
         }
     }
@@ -83,23 +84,22 @@
 }
 
 .citrus_tidyCat__pov--cta a{
-    background: #fff !important;
-    color: #001952 !important;
-    border: 1px solid #fff !important;
+    background: $petco_blue !important;
+    color: $white !important;
+    border: 1px solid $petco_blue !important;
     max-width: 150px;
     margin: 0 15px;
 }
 
 .citrus_tidyCat__pov--cta a:hover{
-    background: #001952 !important;
-    color: #fff !important;
-    border: 1px solid #001952 !important;
+    background: $white !important;
+    color: $petco_blue !important;
+    border: 1px solid $petco_blue !important;
 }
 
 .citrus_tidyCat__pov--logo{
-    max-width: 130px;
+    max-width: 250px;
     margin: 0 auto !important;
-    padding-bottom: 15px;
 }
 
 .citrus_tidyCat__pov--shots{
@@ -120,9 +120,22 @@
         }
     }
     .pov3{
+        position: relative;
         background-image: url("img/citrus_petco_tidyCat_POV3_bg_dsk.png");
         .custom-container{
             min-width: 100%;
+        }
+        .disclaimer{
+            position: absolute;
+            left: 15px;
+            bottom: 20px;
+            max-width: 320px;
+            p{
+                font-size: 11px;
+                font-family: "PetcoCircularTT-Regular", arial !important;
+                font-weight: normal;
+                line-height: 13px;
+            }
         }
     }
 }
