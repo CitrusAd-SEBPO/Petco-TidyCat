@@ -369,16 +369,15 @@ body {
 .citrus_tidyCat_carousel .citrus_tidyCat_carousel-inner .pov1 .citrus_tidyCat__pov--logo {
   width: 161px;
 }
-.citrus_tidyCat_carousel .citrus_tidyCat_carousel-inner .pov2 .citrus_tidyCat__pov--text h1 {
-  color: #000000;
-}
-.citrus_tidyCat_carousel .citrus_tidyCat_carousel-inner .pov2 .citrus_tidyCat__pov--text p {
-  font-size: 16px;
-  color: #000000;
-  padding-bottom: 20px;
-}
 .citrus_tidyCat_carousel .citrus_tidyCat_carousel-inner .pov3 .citrus_tidyCat_carousel-item__col:nth-child(2) {
   padding: 25px 2%;
+}
+.citrus_tidyCat_carousel .citrus_tidyCat_carousel-inner .pov3 .citrus_tidyCat__pov--text h2 {
+  max-width: 100% !important;
+}
+.citrus_tidyCat_carousel .citrus_tidyCat_carousel-inner .pov3 .citrus_tidyCat__pov--text p {
+  max-width: 270px;
+  margin: 0 auto;
 }
 
 .citrus_tidyCat__pov--cta {
@@ -436,12 +435,10 @@ body {
   left: 15px;
   bottom: 20px;
   max-width: 320px;
-}
-.citrus_tidyCat_carousel-inner .pov3 .disclaimer p {
   font-size: 11px;
   font-family: "PetcoCircularTT-Regular", arial !important;
   font-weight: normal;
-  line-height: 13px;
+  line-height: 13px !important;
 }
 
 .citrus_tidyCat_carousel-controls .prev {
@@ -492,8 +489,8 @@ body {
 
 .citrus_tidyCat_carousel-indicators span {
   display: inline-block;
-  border: 2px solid #09205c;
-  padding: 7px;
+  border: 1px solid #09205c;
+  padding: 6px;
   border-radius: 20px;
   cursor: pointer;
   margin: 0 5px;
@@ -1178,9 +1175,7 @@ button {
   }
   .citrus_tidyCat_carousel .citrus_tidyCat_carousel-inner .pov3 .disclaimer {
     bottom: 3px;
-  }
-  .citrus_tidyCat_carousel .citrus_tidyCat_carousel-inner .pov3 .disclaimer p {
-    line-height: 11px !important;
+    line-height: 10px !important;
   }
   .citrus_tidyCat__pov--logo {
     max-width: 140px;
@@ -1229,10 +1224,8 @@ button {
   .citrus_tidyCat_carousel .citrus_tidyCat_carousel-inner .pov3 .disclaimer {
     bottom: 5px;
     max-width: 140px;
-    font-size: 7px;
-  }
-  .citrus_tidyCat_carousel .citrus_tidyCat_carousel-inner .pov3 .disclaimer p {
-    line-height: 11px !important;
+    font-size: 7.5px;
+    line-height: 8px !important;
   }
 }
 /* Mobile devices */
@@ -1326,11 +1319,11 @@ button {
     max-width: 100%;
   }
   .citrus_tidyCat_carousel .citrus_tidyCat_carousel-inner .pov3 .disclaimer {
-    bottom: 25px;
+    bottom: 40px;
     text-align: center;
     max-width: 100%;
     left: 0;
-    padding: 0 15px;
+    padding: 0 5px;
   }
   .citrus_tidyCat_carousel .citrus_tidyCat_carousel-inner .pov3 .disclaimer p {
     width: 100%;

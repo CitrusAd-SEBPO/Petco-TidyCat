@@ -56,22 +56,18 @@
                 width: 161px;
             }
         }
-        .pov2{
-            .citrus_tidyCat__pov--text{
-                h1{
-                    color: #000000;
-                }
-                p{
-                    font-size: 16px;
-                    color: #000000;
-                    padding-bottom: 20px;
-                } 
-            }
-
-        }
         .pov3{
             .citrus_tidyCat_carousel-item__col:nth-child(2){
                 padding: 25px 2%;
+            }
+            .citrus_tidyCat__pov--text{
+                h2{
+                    max-width: 100% !important;
+                }
+                p{
+                    max-width: 270px;
+                    margin: 0 auto;
+                }
             }
         }
     }
@@ -130,12 +126,10 @@
             left: 15px;
             bottom: 20px;
             max-width: 320px;
-            p{
-                font-size: 11px;
-                font-family: "PetcoCircularTT-Regular", arial !important;
-                font-weight: normal;
-                line-height: 13px;
-            }
+            font-size: 11px;
+            font-family: "PetcoCircularTT-Regular", arial !important;
+            font-weight: normal;
+            line-height: 13px !important;
         }
     }
 }
@@ -188,8 +182,8 @@
 
 .citrus_tidyCat_carousel-indicators span{
     display: inline-block;
-    border: 2px solid #09205c;
-    padding: 7px;
+    border: 1px solid #09205c;
+    padding: 6px;
     border-radius: 20px;
     cursor: pointer;
     margin: 0 5px;

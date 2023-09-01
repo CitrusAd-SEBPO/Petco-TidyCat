@@ -70,9 +70,7 @@
             .pov3{
                 .disclaimer{
                     bottom: 3px;
-                    p{
-                    line-height: 11px !important;
-                    }
+                    line-height: 10px !important;
                 }
             }
         }
@@ -145,10 +143,8 @@
                 .disclaimer{
                     bottom: 5px;
                     max-width: 140px;
-                    font-size: 7px;
-                    p{
-                    line-height: 11px !important;
-                    }
+                    font-size: 7.5px;
+                    line-height: 8px !important;
                 }
             }
         }
@@ -274,11 +270,11 @@
                     }
                 }
                 .disclaimer{
-                    bottom: 25px;
+                    bottom: 40px;
                     text-align: center;
                     max-width: 100%;
                     left: 0;
-                    padding: 0 15px;
+                    padding: 0 5px;
                     p{
                         width: 100%;
                     }
