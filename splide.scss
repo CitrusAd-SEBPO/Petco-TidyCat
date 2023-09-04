@@ -59,37 +59,6 @@ button {
     border-bottom: 1px solid #021B4E;
 }
 
-.citrus_purebite_dog_tabs .splide__arrow svg {
-    fill: #122359;
-}
-
-.citrus_purebite_dog_tabs .splide__arrow {
-    -ms-flex-align: center;
-    -webkit-box-align: center;
-    align-items: center;
-    background: transparent;
-    border: 1px solid #122359;
-    border-radius: 50%;
-    cursor: pointer;
-    display: -ms-flexbox;
-    display: -webkit-box;
-    display: flex;
-    height: 3.2em;
-    -ms-flex-pack: center;
-    -webkit-box-pack: center;
-    justify-content: center;
-    opacity: 1;
-    padding: 0;
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    width: 3.2em;
-    z-index: 1;
-}
-
-
 
 //* Splide styles from Imran Ahmed CSS file add. Version: 4.1.2 */
 .splide__container {
@@ -244,23 +213,27 @@ button {
 
 .splide__arrow {
     -ms-flex-align: center;
+    -webkit-box-align: center;
     align-items: center;
-    background: #ccc;
-    border: 0;
+    background: transparent;
+    border: 1px solid #122359;
     border-radius: 50%;
     cursor: pointer;
     display: -ms-flexbox;
+    display: -webkit-box;
     display: flex;
-    height: 2em;
+    height: 2.2em;
     -ms-flex-pack: center;
+    -webkit-box-pack: center;
     justify-content: center;
-    opacity: .7;
+    opacity: 1;
     padding: 0;
     position: absolute;
     top: 50%;
+    -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    width: 2em;
-    z-index: 1
+    width: 2.2em;
+    z-index: 1;
 }
 
 .splide__arrow svg {
