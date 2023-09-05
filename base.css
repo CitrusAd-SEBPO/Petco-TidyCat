@@ -359,6 +359,7 @@ body {
   font-size: 16px;
   color: #000000;
   padding: 20px 0;
+  min-height: 38px;
 }
 .citrus_tidyCat_carousel .citrus_tidyCat_carousel-inner .citrus_tidyCat_carousel-item .custom-container {
   justify-content: flex-start;
