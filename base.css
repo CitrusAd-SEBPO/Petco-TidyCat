@@ -39,7 +39,7 @@ body {
 .citrus_tidyCat p {
   font-family: "PetcoCircularTT-Regular", arial !important;
   line-height: initial !important;
-  font-size: 13px;
+  font-size: 16px;
   color: #333333;
   margin: 0;
 }
@@ -196,7 +196,7 @@ body {
 .citrus_tidyCat p {
   font-family: "PetcoCircularTT-Regular", arial !important;
   line-height: initial !important;
-  font-size: 13px;
+  font-size: 16px;
   color: #333333;
   margin: 0;
 }
@@ -1116,6 +1116,35 @@ button {
   opacity: 0;
 }
 
+.citrus_tidyCat_scrollerHero {
+  background-image: url("img/citrus_tidyCat_scroller_hero.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  justify-content: flex-end !important;
+  margin-top: 60px;
+}
+
+.citrus_tidyCat_scrollerHero__text {
+  width: 50%;
+  text-align: center;
+  padding-top: 4%;
+}
+
+.citrus_tidyCat_scrollerHero__text h2 {
+  font-size: 30px;
+}
+
+.citrus_tidyCat_scrollerHero__text p {
+  padding: 30px 0 48px;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.citrus_tidyCat_scrollerHero__text .cta-box a {
+  margin: 0 auto;
+}
+
 /* Laptop */
 /* Laptop */
 /* Laptop */
@@ -1130,6 +1159,11 @@ button {
     align-items: center;
     padding: 0;
     justify-content: center;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .citrus_tidyCat_scrollerHero {
+    min-height: 350px;
   }
 }
 /* Medium devices */
@@ -1200,6 +1234,12 @@ button {
     max-width: 140px;
     font-size: 7.5px;
     line-height: 8px !important;
+  }
+  .citrus_tidyCat_scrollerHero {
+    min-height: 280px;
+  }
+  .citrus_tidyCat_scrollerHero__text p {
+    padding: 15px 0 30px;
   }
 }
 /* Mobile devices */
@@ -1344,55 +1384,20 @@ button {
   .citrus_tidyCat__video1 .citrus_tidyCat__video_container--col:nth-child(1) {
     order: 2;
   }
-  .citrus_tidyCat_pet-health {
-    overflow: hidden;
-  }
-  .citrus_tidyCat_pet-health__container {
-    padding: 0 15px;
-    overflow-x: auto;
-  }
-  .citrus_tidyCat_pet-health__container .container-wrapper {
-    width: 210%;
-    overflow-x: auto;
-  }
-  .citrus_tidyCat_pet-health__container .container-wrapper .single-content {
-    padding: 0 15px;
-    width: 70%;
-  }
-  .citrus_tidyCat_pet-health__container .container-wrapper .single-content a .single-content__img {
-    max-width: 230px;
-  }
-  .citrus_tidyCat_pet-health__container .container-wrapper .single-content a .single-content__txt {
-    padding: 25px 15px 40px;
-  }
-  .citrus_tidyCat_pet-health__container {
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
-  }
-  .citrus_tidyCat_pet-health__container::-webkit-scrollbar {
+  .splide__arrow {
     display: none;
   }
-  .citrus_tidyCat_help-pet .citrus-vetdiet-section-title {
-    max-width: 270px;
-    margin: 0 auto;
+  .citrus_tidyCat_scrollerHero {
+    background-image: url("img/citrus_tidyCat_scroller_hero-mob.png");
+    align-items: flex-end !important;
+    min-height: 455px;
   }
-  .citrus_tidyCat_help-pet__container {
-    padding: 0 15px;
-    overflow-x: auto;
+  .citrus_tidyCat_scrollerHero__text {
+    width: 100%;
+    padding: 0 0 30px;
   }
-  .citrus_tidyCat_help-pet__container .container-wrapper {
-    width: 160%;
-    overflow-x: auto;
-  }
-  .citrus_tidyCat_help-pet__container .container-wrapper .single-col {
-    width: 80%;
-  }
-  .citrus_tidyCat_help-pet__container {
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
-  }
-  .citrus_tidyCat_help-pet__container::-webkit-scrollbar {
-    display: none;
+  .citrus_tidyCat_scrollerHero__text p {
+    padding: 20px 0;
   }
 }
 /* Mobile devices */

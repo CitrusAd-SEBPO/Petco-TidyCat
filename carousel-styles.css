@@ -158,7 +158,6 @@
   -webkit-box-orient: vertical;
   max-height: 4em;
   font-weight: 500;
-  padding: 25px 0;
 }
 
 .citrus_tidyCatDogCat__Product .citrus_tidyCat-tab-card,
@@ -188,7 +187,7 @@ p.citrus_tidyCatDogCat_details {
 
 .citrus_tidyCat__productCTA {
   border: 0;
-  padding-left: 0;
+  padding: 25px 0 0;
   background: none;
   text-decoration: underline;
   font-family: "PetcoCircularTT-Bold", arial !important;
@@ -241,6 +240,7 @@ p.citrus_tidyCatDogCat_details {
 .citrus_tidyCat-tab-cardImg {
   padding: 0 10px;
   margin: auto;
+  margin: 0 auto 25px;
 }
 
 .citrusTabShow {
