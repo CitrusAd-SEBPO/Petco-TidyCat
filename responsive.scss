@@ -368,6 +368,44 @@
     .citrus_tidyCat_scrollerHero__text p {
         padding: 20px 0;
     }
+
+    // Exploere Section
+    .citrus_tidyCat_exploere .citrus_tidyCat_exploere__content{
+        min-width: 190%;
+    }
+
+    .citrus_tidyCat_exploere .citrus_tidyCat_exploere__content .citrus_tidyCat_exploere__content--col{
+        width: 60%;
+        min-height: 452px;
+        align-items: flex-start;
+    }
+
+    .citrus_tidyCat_exploere .citrus_tidyCat_exploere__content .citrus_tidyCat_exploere__content--col:nth-child(odd){
+        width: 95%;
+    }
+    
+    .citrus_tidyCat_exploere .citrus_tidyCat_exploere__content .citrus_tidyCat_exploere__content--col:nth-child(even){
+        width: 130%;
+    }
+
+    .citrus_tidyCat_exploere .citrus_tidyCat_exploere__content .citrus_tidyCat_exploere__content--shots{
+        height: 160px;
+    }
+    
+    .citrus_tidyCat_exploere .citrus_tidyCat_exploere__content .citrus_tidyCat_exploere__content--icons{
+        height: 160px;
+    }
+
+    .citrus_tidyCat_exploere__content--icons .single-icon h4{
+        font-size: 10px;
+        padding: 10px 0 0;
+        min-height: auto;
+    }
+
+    .citrus_tidyCat_exploere__content--icons .single-icon img{
+        max-width: 60px;
+    }
+    
     
 
 
