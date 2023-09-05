@@ -372,9 +372,6 @@ body {
 .citrus_tidyCat_carousel .citrus_tidyCat_carousel-inner .pov3 .citrus_tidyCat_carousel-item__col:nth-child(2) {
   padding: 25px 2%;
 }
-.citrus_tidyCat_carousel .citrus_tidyCat_carousel-inner .pov3 .citrus_tidyCat__pov--text h2 {
-  max-width: 100% !important;
-}
 .citrus_tidyCat_carousel .citrus_tidyCat_carousel-inner .pov3 .citrus_tidyCat__pov--text p {
   max-width: 270px;
   margin: 0 auto;
