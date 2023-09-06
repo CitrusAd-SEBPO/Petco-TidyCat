@@ -185,16 +185,17 @@
 
     // Explore section
     .citrus_tidyCat_exploere .citrus_tidyCat_exploere__content .citrus_tidyCat_exploere__content--shots{
-        height: 256px;
+        height: 192px;
     }
     
     .citrus_tidyCat_exploere .citrus_tidyCat_exploere__content .citrus_tidyCat_exploere__content--icons{
-        height: 256px;
+        height: 192px;
     }
 
     .citrus_tidyCat_exploere__content--icons .single-icon h4{
         padding: 10px 0 0;
-        font-size: 14px;
+        font-size: 12px;
+        min-height: auto;
     }
 
     .citrus_tidyCat_exploere__content--text{

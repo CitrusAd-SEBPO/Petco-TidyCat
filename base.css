@@ -1165,6 +1165,7 @@ button {
 
 .citrus_tidyCat_exploere .citrus_tidyCat_exploere__wrapper:nth-child(2) .citrus_tidyCat_exploere__content .citrus_tidyCat_exploere__content--col:nth-child(1) .citrus_tidyCat_exploere__content--shots {
   background-image: url("img/citrus_tidyCat_exploere_bg1.png");
+  background-position: right;
 }
 
 .citrus_tidyCat_exploere .citrus_tidyCat_exploere__wrapper:nth-child(2) .citrus_tidyCat_exploere__content .citrus_tidyCat_exploere__content--col:nth-child(2) .citrus_tidyCat_exploere__content--icons {
@@ -1173,6 +1174,7 @@ button {
 
 .citrus_tidyCat_exploere .citrus_tidyCat_exploere__wrapper:nth-child(3) .citrus_tidyCat_exploere__content .citrus_tidyCat_exploere__content--col:nth-child(1) .citrus_tidyCat_exploere__content--shots {
   background-image: url("img/citrus_tidyCat_exploere_bg3.png");
+  background-position: right;
 }
 
 .citrus_tidyCat_exploere .citrus_tidyCat_exploere__wrapper:nth-child(3) .citrus_tidyCat_exploere__content .citrus_tidyCat_exploere__content--col:nth-child(2) .citrus_tidyCat_exploere__content--icons {
@@ -1196,13 +1198,17 @@ button {
 }
 
 .citrus_tidyCat_exploere .citrus_tidyCat_exploere__content .citrus_tidyCat_exploere__content--shots {
-  height: 400px;
+  height: 328px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .citrus_tidyCat_exploere .citrus_tidyCat_exploere__content .citrus_tidyCat_exploere__content--icons {
-  height: 400px;
+  height: 328px;
   justify-content: space-around;
   width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .citrus_tidyCat_exploere__content--icons .single-icon {
@@ -1369,14 +1375,15 @@ button {
     padding: 15px 0 30px;
   }
   .citrus_tidyCat_exploere .citrus_tidyCat_exploere__content .citrus_tidyCat_exploere__content--shots {
-    height: 256px;
+    height: 192px;
   }
   .citrus_tidyCat_exploere .citrus_tidyCat_exploere__content .citrus_tidyCat_exploere__content--icons {
-    height: 256px;
+    height: 192px;
   }
   .citrus_tidyCat_exploere__content--icons .single-icon h4 {
     padding: 10px 0 0;
-    font-size: 14px;
+    font-size: 12px;
+    min-height: auto;
   }
   .citrus_tidyCat_exploere__content--text {
     min-height: 178px;
