@@ -198,6 +198,36 @@ p.citrus_tidyCatDogCat_details {
   cursor: pointer;
 }
 
+.groupCtaDimention {
+  display: flex;
+  flex-direction: column;
+  font-weight: 900;
+}
+
+.groupCtaDimention p {
+  line-height: 18px;
+  font-family: "PetcoCircularTT-Bold", arial !important;
+  color: #001952;
+  margin-top: 0;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.groupProductCTA {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  gap: 20px;
+  margin: auto;
+}
+
+.groupCtaArrow p {
+  font-size: 36px !important;
+  margin-top: 0;
+}
+
 .citrus_tidyCatDogCat__ProductCTA {
   border: 0;
   background: none;
@@ -274,6 +304,7 @@ p.citrus_tidyCatDogCat_details {
   text-decoration: none;
   gap: 20px;
   margin: auto;
+  padding: 0;
 }
 
 .groupCtaDimention {

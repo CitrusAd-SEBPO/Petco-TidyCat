@@ -749,7 +749,7 @@ button {
 }
 
 .splide__arrow--prev {
-  left: 1em;
+  left: 0;
 }
 
 .splide__arrow--prev svg {
@@ -757,7 +757,7 @@ button {
 }
 
 .splide__arrow--next {
-  right: 1em;
+  right: 0;
 }
 
 .splide.is-focus-in .splide__arrow:focus {
@@ -1148,6 +1148,16 @@ button {
   overflow: auto;
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+.citrus_tidyCat_exploere .citrus_tidyCat_exploere__wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.citrus_tidyCat_exploere .citrus_tidyCat_exploere__wrapper {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 .citrus_tidyCat_exploere .citrus_tidyCat_exploere__content {
   align-items: flex-start;
   margin-bottom: 40px;
@@ -1292,6 +1302,19 @@ button {
   .citrus_tidyCat__pov--logo {
     max-width: 140px;
   }
+  .citrus_tidyCat_exploere .citrus_tidyCat_exploere__content .citrus_tidyCat_exploere__content--shots {
+    height: 256px;
+  }
+  .citrus_tidyCat_exploere .citrus_tidyCat_exploere__content .citrus_tidyCat_exploere__content--icons {
+    height: 256px;
+  }
+  .citrus_tidyCat_exploere__content--icons .single-icon h4 {
+    padding: 10px 0 0;
+    font-size: 16px;
+  }
+  .citrus_tidyCat_exploere__content--text {
+    min-height: 128px;
+  }
 }
 /* Tab devices */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -1344,6 +1367,19 @@ button {
   }
   .citrus_tidyCat_scrollerHero__text p {
     padding: 15px 0 30px;
+  }
+  .citrus_tidyCat_exploere .citrus_tidyCat_exploere__content .citrus_tidyCat_exploere__content--shots {
+    height: 256px;
+  }
+  .citrus_tidyCat_exploere .citrus_tidyCat_exploere__content .citrus_tidyCat_exploere__content--icons {
+    height: 256px;
+  }
+  .citrus_tidyCat_exploere__content--icons .single-icon h4 {
+    padding: 10px 0 0;
+    font-size: 14px;
+  }
+  .citrus_tidyCat_exploere__content--text {
+    min-height: 178px;
   }
 }
 /* Mobile devices */

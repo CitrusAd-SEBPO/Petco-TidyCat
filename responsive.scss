@@ -90,6 +90,24 @@
         max-width: 140px;
     }
 
+    // Explore section
+    .citrus_tidyCat_exploere .citrus_tidyCat_exploere__content .citrus_tidyCat_exploere__content--shots{
+        height: 256px;
+    }
+    
+    .citrus_tidyCat_exploere .citrus_tidyCat_exploere__content .citrus_tidyCat_exploere__content--icons{
+        height: 256px;
+    }
+
+    .citrus_tidyCat_exploere__content--icons .single-icon h4{
+        padding: 10px 0 0;
+        font-size: 16px;
+    }
+
+    .citrus_tidyCat_exploere__content--text{
+        min-height: 128px;
+    }
+
     
 }
 
@@ -163,6 +181,24 @@
 
     .citrus_tidyCat_scrollerHero__text p {
         padding: 15px 0 30px;
+    }
+
+    // Explore section
+    .citrus_tidyCat_exploere .citrus_tidyCat_exploere__content .citrus_tidyCat_exploere__content--shots{
+        height: 256px;
+    }
+    
+    .citrus_tidyCat_exploere .citrus_tidyCat_exploere__content .citrus_tidyCat_exploere__content--icons{
+        height: 256px;
+    }
+
+    .citrus_tidyCat_exploere__content--icons .single-icon h4{
+        padding: 10px 0 0;
+        font-size: 14px;
+    }
+
+    .citrus_tidyCat_exploere__content--text{
+        min-height: 178px;
     }
 }
 

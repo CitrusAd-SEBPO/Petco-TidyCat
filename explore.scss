@@ -3,6 +3,17 @@
     overflow: auto;
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+.citrus_tidyCat_exploere .citrus_tidyCat_exploere__wrapper::-webkit-scrollbar {
+    display: none;
+  }
+  
+
+  .citrus_tidyCat_exploere .citrus_tidyCat_exploere__wrapper {
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+  }
+
 .citrus_tidyCat_exploere .citrus_tidyCat_exploere__content{
     align-items: flex-start;
     margin-bottom: 40px;
