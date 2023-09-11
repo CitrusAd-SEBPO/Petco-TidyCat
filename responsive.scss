@@ -17,6 +17,25 @@
     
 }
 
+@media only screen and (min-width: 1280px){
+    /* POV sections */
+    .citrus_tidyCat_carousel{
+        .citrus_tidyCat_carousel-inner{
+            .citrus_tidyCat_carousel-item{
+                .citrus_tidyCat__pov--text{
+                    p{
+                        min-height: 72px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 0 !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
 /* Laptop */
 @media only screen and (min-width: 1280px) and (max-width: 1439px) {
 
