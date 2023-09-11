@@ -358,8 +358,11 @@ body {
 .citrus_tidyCat_carousel .citrus_tidyCat_carousel-inner .citrus_tidyCat_carousel-item .citrus_tidyCat__pov--text p {
   font-size: 16px;
   color: #000000;
-  padding: 20px 0;
-  min-height: 38px;
+  padding: 15px 0;
+  min-height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .citrus_tidyCat_carousel .citrus_tidyCat_carousel-inner .citrus_tidyCat_carousel-item .custom-container {
   justify-content: flex-start;

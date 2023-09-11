@@ -828,7 +828,6 @@ p.citrus_tidyCatDogCat_details {
 
 /* base.css */
 
-
 /* Show hide class */
 .m-hide {
   display: block;
@@ -980,11 +979,6 @@ p.citrus_tidyCatDogCat_details {
 
 /* Imported files */
 /* All the common classes that have common styles */
-/* Need to remove the body styles during handoff */
-body {
-  margin: 0;
-  padding: 0;
-}
 
 /* Show hide class */
 .m-hide {
@@ -1179,8 +1173,11 @@ body {
 .citrus_tidyCat_carousel .citrus_tidyCat_carousel-inner .citrus_tidyCat_carousel-item .citrus_tidyCat__pov--text p {
   font-size: 16px;
   color: #000000;
-  padding: 20px 0;
-  min-height: 38px;
+  padding: 15px 0;
+  min-height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .citrus_tidyCat_carousel .citrus_tidyCat_carousel-inner .citrus_tidyCat_carousel-item .custom-container {
   justify-content: flex-start;
@@ -1234,17 +1231,17 @@ body {
   background-size: cover;
 }
 .citrus_tidyCat_carousel-inner .pov1 {
-  background-image: url("https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus_petco_tidyCat_POV1_bg_dsk");
+  background-image: url("img/citrus_petco_tidyCat_POV1_bg_dsk.png");
 }
 .citrus_tidyCat_carousel-inner .pov2 {
-  background-image: url("https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus_petco_tidyCat_POV2_bg_dsk");
+  background-image: url("img/citrus_petco_tidyCat_POV2_bg_dsk.png");
 }
 .citrus_tidyCat_carousel-inner .pov2 .custom-container {
   min-width: 100%;
 }
 .citrus_tidyCat_carousel-inner .pov3 {
   position: relative;
-  background-image: url("https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus_petco_tidyCat_POV3_bg_dsk");
+  background-image: url("img/citrus_petco_tidyCat_POV3_bg_dsk.png");
 }
 .citrus_tidyCat_carousel-inner .pov3 .custom-container {
   min-width: 100%;
@@ -1529,7 +1526,7 @@ button {
   -ms-flex-align: center;
   -webkit-box-align: center;
   align-items: center;
-  background: #fff;
+  background: transparent;
   border: 1px solid #122359;
   border-radius: 50%;
   cursor: pointer;
@@ -1936,7 +1933,7 @@ button {
 }
 
 .citrus_tidyCat_scrollerHero {
-  background-image: url("https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus_tidyCat_scroller_hero");
+  background-image: url("img/citrus_tidyCat_scroller_hero.png");
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 500px;
@@ -1985,21 +1982,21 @@ button {
 }
 
 .citrus_tidyCat_exploere .citrus_tidyCat_exploere__wrapper:nth-child(2) .citrus_tidyCat_exploere__content .citrus_tidyCat_exploere__content--col:nth-child(1) .citrus_tidyCat_exploere__content--shots {
-  background-image: url("https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus_tidyCat_exploere_bg1");
+  background-image: url("img/citrus_tidyCat_exploere_bg1.png");
   background-position: right;
 }
 
 .citrus_tidyCat_exploere .citrus_tidyCat_exploere__wrapper:nth-child(2) .citrus_tidyCat_exploere__content .citrus_tidyCat_exploere__content--col:nth-child(2) .citrus_tidyCat_exploere__content--icons {
-  background-image: url("https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus_tidyCat_exploere_bg2");
+  background-image: url("img/citrus_tidyCat_exploere_bg2.png");
 }
 
 .citrus_tidyCat_exploere .citrus_tidyCat_exploere__wrapper:nth-child(3) .citrus_tidyCat_exploere__content .citrus_tidyCat_exploere__content--col:nth-child(1) .citrus_tidyCat_exploere__content--shots {
-  background-image: url("https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus_tidyCat_exploere_bg3");
+  background-image: url("img/citrus_tidyCat_exploere_bg3.png");
   background-position: right;
 }
 
 .citrus_tidyCat_exploere .citrus_tidyCat_exploere__wrapper:nth-child(3) .citrus_tidyCat_exploere__content .citrus_tidyCat_exploere__content--col:nth-child(2) .citrus_tidyCat_exploere__content--icons {
-  background-image: url("https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus_tidyCat_exploere_bg4");
+  background-image: url("img/citrus_tidyCat_exploere_bg4.png");
 }
 
 .citrus_tidyCat_exploere .citrus_tidyCat_exploere__content .citrus_tidyCat_exploere__content--col {
@@ -2208,10 +2205,10 @@ button {
     padding: 15px 0 30px;
   }
   .citrus_tidyCat_exploere .citrus_tidyCat_exploere__content .citrus_tidyCat_exploere__content--shots {
-    height: 190px;
+    height: 192px;
   }
   .citrus_tidyCat_exploere .citrus_tidyCat_exploere__content .citrus_tidyCat_exploere__content--icons {
-    height: 190px;
+    height: 192px;
   }
   .citrus_tidyCat_exploere__content--icons .single-icon h4 {
     padding: 10px 0 0;
@@ -2293,7 +2290,7 @@ button {
     margin: 0 auto;
   }
   .citrus_tidyCat_carousel .citrus_tidyCat_carousel-inner .pov1 {
-    background-image: url("https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus_petco_tidyCat_POV1_bg_mob");
+    background-image: url("img/citrus_petco_tidyCat_POV1_bg_mob.png");
     display: flex;
     flex-wrap: wrap;
   }
@@ -2304,10 +2301,10 @@ button {
     width: 100px;
   }
   .citrus_tidyCat_carousel .citrus_tidyCat_carousel-inner .pov2 {
-    background-image: url("https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus_petco_tidyCat_POV2_bg_mob");
+    background-image: url("img/citrus_petco_tidyCat_POV2_bg_mob.png");
   }
   .citrus_tidyCat_carousel .citrus_tidyCat_carousel-inner .pov3 {
-    background-image: url("https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus_petco_tidyCat_POV3_bg_mob");
+    background-image: url("img/citrus_petco_tidyCat_POV3_bg_mob.png");
   }
   .citrus_tidyCat_carousel .citrus_tidyCat_carousel-inner .pov3 .custom-container {
     min-width: 100%;
@@ -2371,7 +2368,7 @@ button {
     display: none;
   }
   .citrus_tidyCat_scrollerHero {
-    background-image: url("https://assets.petco.com/petco/image/upload/f_auto,q_auto/citrus_tidyCat_scroller_hero-mob");
+    background-image: url("img/citrus_tidyCat_scroller_hero-mob.png");
     align-items: flex-end !important;
     min-height: 455px;
   }
@@ -2420,7 +2417,6 @@ button {
 }
 
 /*# sourceMappingURL=base.css.map */
-
 
 
 
